@@ -1,0 +1,13 @@
+<form>
+
+    <label for="fname">First name:</label><br>
+    <input type="text" id="name" name="name" [(ngModel)]="name" ><br>
+
+    <label for="lname">Age</label><br>
+    <input type="number" id="age" name="age" [(ngModel)]="age" ><br>
+
+    <label for="lname">Gender</label><br>
+    <input type="text" id="gender" name="gender" [(ngModel)]="gender" ><br>
+
+</form>
+<button (click)="updateStudent()" >update student</button>
